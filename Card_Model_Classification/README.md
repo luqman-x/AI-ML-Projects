@@ -1,6 +1,6 @@
-# 🃏 Playing Card Classification (PyTorch)
+# Playing Card Classification (PyTorch)
 
-## 📌 Overview
+## Overview
 
 This project builds an image classification model that identifies **53 classes of playing cards** using transfer learning.
 
@@ -10,7 +10,7 @@ The goal is to understand and implement a **complete deep learning pipeline**: d
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 📥 **Download Dataset:**
 👉 _(https://drive.google.com/drive/folders/1fwGrdBea1054IeKSR6P4UELBrJ0s-W0m?usp=sharing)_
@@ -28,7 +28,7 @@ Each folder contains subfolders representing the class labels (e.g., _"ace of sp
 
 ---
 
-## ⚙️ Approach
+## pproach
 
 ### 1. Data Handling
 
@@ -67,7 +67,7 @@ self.classifier = nn.Sequential(
 
 ---
 
-## 🔁 Training Logic
+## Training Logic
 
 For each epoch:
 
@@ -80,7 +80,7 @@ For each epoch:
 
 ---
 
-## 📉 Monitoring
+## Monitoring
 
 The model tracks:
 
@@ -95,7 +95,7 @@ Loss curves are plotted after training to observe:
 
 ---
 
-## 🔍 Inference
+## Inference
 
 The model can:
 
@@ -106,7 +106,7 @@ This helps interpret how confident the model is across all classes.
 
 ---
 
-## 🧩 Key Components
+## Key Components
 
 - `PlayingcardDataset` → handles data loading
 - `SimpleCardClassifier` → model definition
@@ -115,7 +115,7 @@ This helps interpret how confident the model is across all classes.
 
 ---
 
-## 📊 Observations
+## Observations
 
 - Transfer learning significantly improves performance compared to training from scratch
 - Early stopping helps avoid overfitting on small datasets
@@ -123,7 +123,7 @@ This helps interpret how confident the model is across all classes.
 
 ---
 
-## 🚧 Limitations
+## Limitations
 
 - Image size is relatively small (128×128)
 - No advanced augmentation (e.g., rotation, color jitter)
@@ -131,7 +131,7 @@ This helps interpret how confident the model is across all classes.
 
 ---
 
-## 🔮 Possible Improvements
+## Possible Improvements
 
 - Increase input resolution (e.g., 224×224)
 - Fine-tune deeper layers of the backbone
@@ -141,7 +141,7 @@ This helps interpret how confident the model is across all classes.
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 pip install torch torchvision timm matplotlib numpy pandas tqdm pillow
@@ -149,7 +149,7 @@ pip install torch torchvision timm matplotlib numpy pandas tqdm pillow
 
 ---
 
-## ▶️ Running the Project
+## ▶Running the Project
 
 Run the notebook or script to:
 
@@ -160,14 +160,14 @@ Run the notebook or script to:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Ali Luqmanu
 Biomedical Engineering Student — KNUST
 
 ---
 
-## 📜 License
+## License
 
 MIT License
 
